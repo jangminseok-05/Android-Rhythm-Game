@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startGame(View view){
-//        mediaPlayer.pause();
+        mediaPlayer.pause();
 //        GameView gameView = new GameView(this);
 //        setContentView(gameView);
         Intent intent=new Intent(MainActivity.this,ChoiceMusicActivity.class);
