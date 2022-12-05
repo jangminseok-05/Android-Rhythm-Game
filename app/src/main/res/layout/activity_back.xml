@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgc"
+    tools:context=".BackActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="@drawable/card_style"
+        android:paddingTop="50dp"
+        android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/et_find"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:background="@drawable/et_style"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="71dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@drawable/btn_style"
+            android:textColor="@color/white"
+            android:text="find" />
+    </LinearLayout>
+</LinearLayout>
